@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   applicationName: "Kundan Prasad Yadav Portfolio",
   category: "technology",
   title: {
-    default: "Kundan Prasad Yadav | MERN Stack Developer in Kathmandu, Nepal",
+    default: "Kundan| A MERN Stack Developer in Kathmandu, Nepal",
     template: "%s | Kundan Prasad Yadav",
   },
   icons: {
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     apple: [{ url: "/icon.svg" }],
   },
   description:
-    "Kundan Prasad Yadav is a B.Tech Computer Engineering graduate from NIMS University Jaipur, a MERN Stack developer, and a freelance developer in Kathmandu, Nepal.",
+    "Kundan is a B.Tech Computer Engineering graduate from NIMS University Jaipur, a MERN Stack developer, and a freelance developer in Kathmandu, Nepal.",
   keywords: [
     "Kundan Prasad Yadav",
     "MERN Stack Developer",
@@ -53,7 +53,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "Kundan Prasad Yadav | MERN Stack Developer in Kathmandu, Nepal",
+    title: "Kundan| A MERN Stack Developer in Kathmandu, Nepal",
     description:
       "B.Tech Computer Engineering graduate from NIMS University Jaipur, building modern web apps and freelance solutions in Kathmandu, Nepal.",
     url: siteUrl,
@@ -71,7 +71,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Kundan Prasad Yadav | MERN Stack Developer in Kathmandu, Nepal",
+    title: "Kundan| A MERN Stack Developer in Kathmandu, Nepal",
     description:
       "MERN Stack developer and freelance web developer based in Kathmandu, Nepal.",
     creator: "@kundanprasad",
