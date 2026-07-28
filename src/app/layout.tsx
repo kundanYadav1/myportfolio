@@ -79,6 +79,7 @@ export const metadata: Metadata = {
   },
   other: {
     "theme-color": "#020617",
+    "msvalidate.01": "6B5176165543C9FDD35835E961986347",
   },
 };
 
@@ -92,6 +93,9 @@ export default function RootLayout({
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
+      <head>
+        <meta name="msvalidate.01" content="6B5176165543C9FDD35835E961986347" />
+      </head>
       <body className="min-h-full flex flex-col">{children}</body>
     </html>
   );
