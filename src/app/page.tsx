@@ -77,72 +77,8 @@ const contactDetails = [
 ];
 
 export default function Home() {
-  const structuredData = [
-    {
-      "@context": "https://schema.org",
-      "@type": "Person",
-      name: "Kundan Prasad Yadav",
-      jobTitle: "MERN Stack Developer",
-      description:
-        "B.Tech Computer Engineering graduate from NIMS University Jaipur, specializing in modern web development and freelance development in Kathmandu, Nepal.",
-      url: "https://kundanprasadyadav.com.np",
-      email: "mailto:kundanprasadyadav15@gmail.com",
-      telephone: "+9779742471815",
-      image: "https://github.com/kundanYadav1.png",
-      address: {
-        "@type": "PostalAddress",
-        addressLocality: "Kathmandu",
-        addressCountry: "Nepal",
-      },
-      alumniOf: {
-        "@type": "CollegeOrUniversity",
-        name: "NIMS University Jaipur",
-      },
-      sameAs: [
-        "https://github.com/kundanYadav1",
-        "https://www.linkedin.com/in/kundan-prasad-yadav-9a7328192/",
-      ],
-      knowsAbout: [
-        "MERN Stack",
-        "React",
-        "Next.js",
-        "Node.js",
-        "MongoDB",
-        "Express.js",
-        "TypeScript",
-        "SEO",
-        "Freelance Web Development",
-      ],
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "WebSite",
-      name: "Kundan Prasad Yadav Portfolio",
-      url: "https://kundanprasadyadav.com.np",
-      potentialAction: {
-        "@type": "SearchAction",
-        target: "https://kundanprasadyadav.com.np/?q={search_term_string}",
-        "query-input": "required name=search_term_string",
-      },
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      mainEntity: faqItems.map((item) => ({
-        "@type": "Question",
-        name: item.question,
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: item.answer,
-        },
-      })),
-    },
-  ];
-
   return (
     <main className="min-h-screen bg-[radial-gradient(circle_at_top_left,_rgba(59,130,246,0.2),_transparent_35%),linear-gradient(135deg,_#0f172a_0%,_#111827_100%)] text-slate-100">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }} />
-
       <section className="mx-auto flex max-w-6xl flex-col px-6 py-20 lg:px-8 lg:py-28">
         <nav className="mb-16 flex items-center justify-between text-sm text-slate-300">
           <span className="font-semibold tracking-[0.3em] text-slate-50 uppercase">Kundan Prasad Yadav</span>
