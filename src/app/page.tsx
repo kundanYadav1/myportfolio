@@ -103,7 +103,7 @@ export default function Home() {
               <a href="#projects" className="rounded-full bg-sky-500 px-6 py-3 font-medium text-slate-950 transition hover:bg-sky-400">
                 View projects
               </a>
-              <a href="/Kundan_Prasad_Yadav_Resume.pdf" download className="rounded-full border border-slate-700 px-6 py-3 font-medium text-slate-100 transition hover:border-sky-400 hover:text-sky-300">
+              <a href="/Kundan_Prasad_Yadav_Resume.pdf?v=2" download className="rounded-full border border-slate-700 px-6 py-3 font-medium text-slate-100 transition hover:border-sky-400 hover:text-sky-300">
                 Download Resume
               </a>
             </div>
